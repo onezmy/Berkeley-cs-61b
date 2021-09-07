@@ -88,13 +88,6 @@ public class Planet {
 		StdDraw.picture(xxPos, yyPos, "./images/"+imgFileName);
 	}
 
-	public static void main(String[] args){
-		Planet samh = new Planet(1.0,0.0,0.0,0.0,10.0,"test");
-		Planet aegir = new Planet(3.0,3.0,0.0,0.0,5.0,"test");
-		Planet rocinante = new Planet(5.0,3.0,0.0,0.0,50.0,"test");
-		Planet[] allPlanets = {samh, rocinante, aegir};
-		System.out.println(samh.calcNetForceExertedByX(allPlanets));
-		System.out.println(samh.calcNetForceExertedByY(allPlanets));
-	}
+
 
 }
